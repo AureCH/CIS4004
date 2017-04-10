@@ -1,0 +1,129 @@
+body
+	{
+		
+		background: linear-gradient(#FFFFFF, #90C7E3);
+		background-repeat: no-repeat;
+		color: #666666;
+		font-family : Arial, Helvetica, sans-serif;
+	}
+dd, dt
+	{
+		padding-bottom: .5em;
+	}
+footer
+	{
+		font-family: Georgia, "Timse New Roman", serif;
+		font-size: 75%;
+		font-style: italic;
+		padding: 20px 20px 20px 20px;
+		
+		text-align: center;
+	}
+h1
+	{
+		font-family: Georgia, "Times New Roman", serif;
+		margin-bottom: 0%;
+		margin-top: 0%;
+	}	
+h2
+	{
+		color: #3399CC;
+		font-family: Georgia, "Times New Roman", seriff;
+		text-shadow: 1px 1px #CCCCCC;
+	}
+h3, dt
+	{
+		color: #000099;
+		font-family: Georgia, "Times New Roman", seriff;
+		font-weight: bold;
+	}
+
+header
+	{
+		background-color: #000033;
+		
+		background-image: url("Images/sunset.jpg");
+		background-repeat: no-repeat;
+		background-position: right;
+		color: #FFFFFF;
+		height: 60px;
+		padding-top: 15px;
+		text-align: center;
+		
+	}
+main
+	{
+		padding-top: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+
+	}	
+nav
+	{
+		background-color: #FFFFFF;
+		font-weight: bold;
+		margin-top : 0%;
+		padding-top: 0%;
+		padding: 10px 10px;
+		text-align: center;
+	}
+nav a
+	{
+		text-decoration: none;
+	}
+ul
+	{
+		list-style-image: url("Images/marker.gif");
+	}
+/*--Classes--*/
+.resort
+	{
+		color: #5C7FA3;
+		font-weight: bold;
+	}
+	
+/*--IDs--*/
+#accommodations-image
+	{
+		background-image: url("Images/bungalow-main.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 300px;	
+	}
+#activities-image
+	{
+		background-image: url("Images/trail-main.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 300px;
+	}
+#contact
+	{
+		font-size: 90%;
+	}
+	
+#main-image
+	{
+		background-image: url("Images/coast-main.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		
+		height: 300px;
+		
+		
+	}
+#wrapper
+	{
+		
+		background-color: #FFFFFF;
+		
+		box-shadow: 3px 3px 3px 3px #333333;
+		
+		
+		margin-left: 10%;
+		min-width: 960px;
+		max-width: 2048px;
+		width: 80%;
+
+	}
