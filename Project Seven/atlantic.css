@@ -21,6 +21,13 @@ footer
 		
 		text-align: center;
 	}
+form
+	{
+		background-color: #D8D8D8;
+		box-shadow:2px 2px 2px black;
+		border: 1px solid #3399CC;
+		padding: 2px;
+	}	
 h1
 	{
 		font-family: Georgia, "Times New Roman", serif;
@@ -53,6 +60,12 @@ header
 		text-align: center;
 		
 	}
+label
+	{
+		display: inline-block;
+		width: 140px;
+		text-align:right;
+	}	
 main
 	{
 		background-color: #FFFFFF;
@@ -138,6 +151,10 @@ tr td:nth-child(2)
 	}	
 
 /*--Classes--*/
+.Contact
+	{
+		font-weight:bold;
+	}
 .resort
 	{
 		color: #5C7FA3;
@@ -161,13 +178,16 @@ tr td:nth-child(2)
 		height: 300px;
 		margin-left: 190px;
 	}
+#Comments
+	{
+		
+	}
 #contact
 	{
 		color: #5C7FA3;
 		font-size: 90%;
 		font-weight:bold;
 	}
-	
 #main-image
 	{
 		background-image: url("Images/coast-main.jpg");
@@ -186,6 +206,16 @@ tr td:nth-child(2)
 	{
 		display: none;
 	}
+#submit
+	{
+		background-color: #90C7E3;
+		border: 0px;
+		font-size: 14px;
+		font-weight: bold;
+		margin-left: 10%;
+		padding: 9px 15px;
+		width: auto;
+	}	
 #wrapper
 	{
 		
@@ -265,6 +295,11 @@ tr td:nth-child(2)
 	{
 		padding: 1em;
 	}
+	input,label
+		{
+			display:block;
+			text-align:left;
+		}
 	main 
 	{
 		padding-top: 0.1em;
