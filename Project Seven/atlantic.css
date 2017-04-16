@@ -148,13 +148,18 @@ tr td
 tr td:nth-child(2)
 	{
 		text-align:left;
-	}	
+	}
+tr:hover td
+{
+	background-color: yellow;
+}
+
 
 /*--Classes--*/
 .Contact
 	{
 		font-weight:bold;
-	}
+	}	
 .resort
 	{
 		color: #5C7FA3;
